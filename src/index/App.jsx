@@ -81,7 +81,8 @@ function App(props) {
     const dateSelectorCbs = useMemo(() => {
         return bindActionCreators({
             onBack: hideDateSelector,
-        });
+        },
+        dispatch);
     }, []);
 
     const highSpeedCbs = useMemo(() => {
@@ -103,7 +104,7 @@ function App(props) {
             return;
         }
         dispatch(setDepartDate(day));
-        dispatch(hideDateSelector());
+        dispatch(hideDateSelector()); //隐藏日历
     }, []);
 
     return (

@@ -160,7 +160,7 @@ function App(props) {
                 </Detail>
             </div>
             <TrainContext.Provider
-                value={(trainNumber, departStation, arriveStation, departDate)}
+                value={{ trainNumber, departStation, arriveStation, departDate }}
             >
                 <Candidate tickets={tickets} />
             </TrainContext.Provider>

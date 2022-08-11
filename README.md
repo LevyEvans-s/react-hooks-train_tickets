@@ -1,9 +1,33 @@
-﻿React新特性Hooks重构去哪儿网火车票PWA
+# React Hooks+Reducer 仿12306火车票电商
+## 项目描述
+该项目是仿照12306搭建的火车票订票电商应用，目前都是mock的接口数据，用于本人学习React Hooks时写的一个MPA，目前有首页、选票页、车次列表页、订单页共四个页面。
 
-该项目利用 [React](https://reactjs.org)、[Redux](https://redux.js.org/)等技术重构去哪儿网火车票，重度使用 [Hooks](https://reactjs.org/docs/hooks-intro.html) 重写视图组件。
+## 项目亮点
+- 引入Service Worker支持线上环境离线缓存
+- 封装原生JS控件，如日历、城市选择浮层、滑动弹窗、选择器、日期滑块等
+- 较为复杂多样的业务逻辑，如综合筛选浮层组件状态缓存与缓冲区重构、只看高铁与筛选浮层数据联动、成人与儿童关联绑定、列车时刻表
+- 自定义Hook抽离公共逻辑
+- 合理使用React Hook优化性能
 
-## 用法
+## 项目截图
 
-```sh
-npm start
-```
+### 首页
+
+![首页](F:\Web\React劲爆新特性Hooks 重构旅游电商网站火车票PWA\首页.png)
+
+
+
+### 车次列表页
+
+![车次列表页](F:\Web\React劲爆新特性Hooks 重构旅游电商网站火车票PWA\车次列表页.png)
+
+### 选票页
+
+![选票页](F:\Web\React劲爆新特性Hooks 重构旅游电商网站火车票PWA\选票页.png)
+
+
+
+### 订单页
+
+![订单页](F:\Web\React劲爆新特性Hooks 重构旅游电商网站火车票PWA\订单页.png)
+
